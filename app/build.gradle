@@ -53,8 +53,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true  // enable code shrinking/obfuscation
-        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false  // enable code shrinking/obfuscation
+        
         signingConfig signingConfigs.release
         }
     }

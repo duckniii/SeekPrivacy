@@ -26,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
     private val handler = Handler(Looper.getMainLooper())
 
     // Launcher for "Manage All Files Access"
-    private val manageAllFilesLauncher =
+    /*private val manageAllFilesLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (allPermissionsGranted()) {
                 launchDashboard()
@@ -34,7 +34,7 @@ class SplashActivity : AppCompatActivity() {
                 Toast.makeText(this, "Permissions still missing.", Toast.LENGTH_LONG).show()
                 finish()
             }
-        }
+        }*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,12 +52,18 @@ class SplashActivity : AppCompatActivity() {
         setContentView(layout)
 
         // Delay splash then check permissions
-        handler.postDelayed({
+        /*handler.postDelayed({
             checkAndRequestPermissions()
-        }, SPLASH_DURATION_MS)
+        }, SPLASH_DURATION_MS)*/
+        
+        handler.postDelayed({
+    startActivity(Intent(this, DashboardActivity::class.java))
+    finish()
+}, SPLASH_DURATION_MS)
+
     }
 
-    private fun allPermissionsGranted(): Boolean {
+  /*  private fun allPermissionsGranted(): Boolean {
         val readGranted =
             ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
         val writeGranted =
@@ -124,6 +130,6 @@ class SplashActivity : AppCompatActivity() {
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
         finish() //  ensures SplashActivity is destroyed
-    }
+    }*/
 }
 
