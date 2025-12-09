@@ -310,11 +310,11 @@ class FolderFilesActivity : AppCompatActivity() {
     private fun promptDecryptFile(file: File) {
         val input = android.widget.EditText(this).apply { inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD }
         AlertDialog.Builder(this)
-            .setTitle("Decrypt File - Forgot Password Version")
-            .setMessage("Enter : Forgot")
+            .setTitle("Decrypt File")
+            .setMessage("Enter verification string to decrypt. Your verification string is: \"$verificationString\"")
             .setView(input)
             .setPositiveButton("Decrypt") { dialog, _ ->
-                if (input.text.toString() == "Forgot") {
+                if (input.text.toString() == verificationString) {
                     dialog.dismiss()
                     lifecycleScope.launch {
                         decryptFile(FileInputStream(file), File(decryptedDir, file.name.removeSuffix(".enc")))
