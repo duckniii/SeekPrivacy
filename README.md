@@ -82,13 +82,14 @@ It eliminate the catastrophic tension of permanent lockouts. This system ensures
 
 
 ### Activist-Grade Security Features
-* **Hardware-Backed KeyStore:** Uses RSA-2048/AES-256 GCM. The keys stay in the hardware, not the software.
-* **5-Minute RAM Wipe:** Sensitive key material is nullified automatically on idle to prevent memory-dump attacks.
-* **Anti-Forensic Shredder:** Deletion doesn't just "unlink" files. SeekPrivacy overwrites file headers and the first 1MB with cryptographic random noise (SecureRandom). This creates high-entropy data residue that camouflages deleted files, defeating forensic recovery tools (like Cellebrite) that look for standard "zero-filled" wiped blocks.
-* **Stealth Logic:** Screen-recording, screenshots, and "Recent Apps" snapshots are hardware-blocked (`FLAG_SECURE`).
-* **Developer Bypass UI Zero-Tension Recovery:** A world-first recovery system using a hardware-anchored `ANDROID_ID` for secure, encrypted bypass token requests. Never fear losing your data due to a forgotten password. Our Secure Dev Last Resort provides a world-first recovery bridge, giving you the peace of mind that your life's work is never permanently locked away.
-* **🚫 No Internet, No Leaks:** SeekPrivacy requests zero network permissions, total offline isolation means your data never leaves your device.
-
+| Feature | Description |
+| :--- | :--- |
+| **Hardware-Backed KeyStore** | Uses RSA-2048/AES-256 GCM. The keys stay in the hardware, not the software. |
+| **5-Minute RAM Wipe & Lock** | Sensitive key material and passwords are completely wiped from memory after 5 minutes of inactivity, requiring the app lock again. Once unlocked, file operations proceed without repeated password prompts for a 5-minute active window. |
+| **Anti-Forensic Shredder** | Deletion overwrites file headers and the first 1MB with cryptographic random noise to defeat forensic recovery tools. |
+| **Stealth Logic** | Screen-recording, screenshots, and "Recent Apps" snapshots are hardware-blocked (`FLAG_SECURE`). |
+| **Developer Bypass UI Zero-Tension Recovery** | A recovery system using a hardware-anchored `ANDROID_ID` for secure, encrypted bypass token requests so you never lose data. |
+| **🚫 No Internet, No Leaks** | Requests zero network permissions; total offline isolation means your data never leaves your device. |
 
 
 ## Security Protocol
