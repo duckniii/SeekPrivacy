@@ -14,17 +14,16 @@
 | Source | Status |
 |--------|--------|
 | **Github Releases** | [![GitHub release](https://img.shields.io/github/v/release/duckniii/SeekPrivacy?label=Latest)](https://github.com/duckniii/SeekPrivacy/releases/download/v3.5.0/seekprivacy-v3.5.0-release.apk) |
-| **IzzyOnDroid** | [![IzzyOnDroid](https://img.shields.io/endpoint?url=https://apt.izzysoft.de/fdroid/api/v1/shield/com.seeker.seekprivacy)](https://apt.izzysoft.de/packages/com.seeker.seekprivacy) |
-| **F-Droid** | <a href="https://f-droid.org/packages/com.seeker.seekprivacy"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="35" alt="Get it on F-Droid"></a> |
+| **IzzyOnDroid** | <a href="https://apt.izzysoft.de/fdroid/index/apk/com.seeker.seekprivacy"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroidButtonGreyBorder_nofont.png" height="35" alt="Get it on IzzyOnDroid"></a> |
+| **F-Droid** | <a href="https://f-droid.org/packages/com.seeker.seekprivacy"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="40" alt="Get it on F-Droid"></a> |
 | **Android Freeware** | [![Android Freeware](https://img.shields.io/badge/Download-Android%20Freeware-blue?logo=android)](https://www.androidfreeware.net/download-seekprivacy-apk.html) |
 | **OpenAPK** | [![OpenAPK](https://img.shields.io/badge/Download-OpenAPK-orange?logo=android)](https://www.openapk.net/seekprivacy/com.seeker.seekprivacy/) |
 | **Appteka** | [![Appteka](https://img.shields.io/badge/Download-Appteka-red?logo=android)](https://appteka.store/apps/bb7r284630) |
 
 
 
-
 ## 🛡️ The "No-Trade-Off" Revolution
-Standard vaults create a clunky "island." **SeekPrivacy** creates a shield. Apps like social media and basic tools demand "Storage Access" if you refuse, they break. If you accept, they **spy**.  This creates a painful **trade-off** between **functionality** and **privacy**.
+Apps like social media and other basic tools demand "Storage Access" if you refuse, they break. If you accept, they **spy**.  This creates a painful **trade-off** between **functionality** and **privacy**.
 
 
 ## The SeekPrivacy Shield
@@ -35,6 +34,32 @@ SeekPrivacy is built on the principle that your phone's operating system and oth
 **SeekPrivacy eliminates this blackmail.** It provides **multi-layered** defense by isolating data within encrypted sandbox, inaccessible to **other apps**, the **OS**, or **unauthorized physical extraction** - providing **activist grade security** - With the Belief **"Privacy Without the Tradeoff of Ease"**  - even if a malicious app has full device control, it sees **nothing**.
 
 
+---
+
+**🛡️ HARDENED | 🚫 OFFLINE | ✊ ACTIVIST-GRADE**
+
+---
+
+### 🛠️ Professional File Management Suite 
+It's integrated with a full-featured management layer directly into the encrypted state. No more "decrypt-to-organize.". 
+The Files/data always stays inside the App, it never leave any trace on System.
+
+| Feature | Description |
+| :--- | :--- |
+| **Easy to use UI** | Seamless, easy to use UI, without any headache to understand. |
+| **Nested Sub-Folders** | Total categorization within the vault. |
+| **Instant search** | Find any file across in milliseconds. |
+| **Hot-Rename & Move** | Modify file names and locations without breaking encryption. |
+| **Share Files** | Share files without ever leaving the trace on phone's system file manager. |
+| **Check File Properties** | View properties of files easily. |
+| **Live Count** | Total number of files in any folder. |
+| **File Import/Export (For Backup)** | Easily backup files anywhere by exporting them and decrypt by importing them. |
+| **Preview Thumbnail** | Easily navigate files by their preview thumbnail instead of clicking to know what is what. |
+| **Faster Encryption/Decryption** | Encryption/Decryption now uses Tink. |
+| **3 Type of App Lock** | Password, pattern, biometric (easily switch between these whenever you want based on your need). |
+| **Instant Dev Support** | Email me anytime regarding any issue or new features and expect a response within 12 hours. |
+
+---
 
 ### Digital Isolation (Protection from System & Apps)
 
@@ -52,18 +77,9 @@ SeekPrivacy is built for the human element. **Secure Dev Last Resort** is a worl
 
 It eliminate the catastrophic tension of permanent lockouts. This system ensures that even if your memory falters under interrogation or duress, your life's work remains accessible through a verified, hardware-bound recovery path.
 
----
-
-**🛡️ HARDENED | 🚫 OFFLINE | ✊ ACTIVIST-GRADE**
 
 ---
 
-### 🛠️ Professional Management Suite (V2.0+)
-It's integrated with a full-featured management layer directly into the encrypted state. No more "decrypt-to-organize."
-* **Nested Sub-Folders:** Total categorization within the vault.
-* **Instant search:** Find any encrypted file across internal/external mirrors in milliseconds.
-* **Hot-Rename & Move:** Modify file names and locations without breaking encryption.
-* **Live Count:** Real-time visibility into your vault’s volume.
 
 ### Activist-Grade Security Features
 * **Hardware-Backed KeyStore:** Uses RSA-2048/AES-256 GCM. The keys stay in the hardware, not the software.
